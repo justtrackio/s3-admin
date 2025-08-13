@@ -1,0 +1,5 @@
+aws:
+  region: "eu-central-1"
+  access_key: "justtrack"
+  secret_key: "justtrack"
+  endpoint: "http://localhost:4566"
