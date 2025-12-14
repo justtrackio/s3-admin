@@ -6,7 +6,9 @@ require (
 	github.com/aws/aws-sdk-go-v2 v1.38.0
 	github.com/aws/aws-sdk-go-v2/config v1.31.0
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.87.0
+	github.com/gorilla/handlers v1.5.2
 	github.com/gorilla/mux v1.8.1
+	gopkg.in/yaml.v2 v2.4.0
 )
 
 require (
@@ -26,6 +28,4 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sts v1.37.0 // indirect
 	github.com/aws/smithy-go v1.22.5 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
-	github.com/gorilla/handlers v1.5.2 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 )

@@ -1,5 +1,12 @@
-aws:
-  region: "eu-central-1"
-  access_key: "justtrack"
-  secret_key: "justtrack"
-  endpoint: "http://localhost:4566"
+regions:
+  # Example AWS region
+  - name: aws-us-east-1
+    region: us-east-1
+    access_key: "YOUR_ACCESS_KEY"
+    secret_key: "YOUR_SECRET_KEY"
+    endpoint: "http://localhost:9000"
+# Add additional regions below. Each entry must have:
+# - name: friendly identifier used in the UI
+# - region: logical region name (string)
+# - access_key / secret_key: credentials
+# - endpoint: optional custom endpoint for S3-compatible servers
